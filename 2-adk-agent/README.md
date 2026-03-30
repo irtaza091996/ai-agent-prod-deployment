@@ -1,4 +1,4 @@
-# Part 2 — Building and Deploying an ADK Agent with an MCP Server 🐘🌍
+# Part 2: Building and Deploying an ADK Agent with an MCP Server 
 
 In this part, I built a **multi-agent zoo tour guide** using Google's Agent Development Kit (ADK). The agent connects to the MCP server from Part 1 for zoo-specific data, and to Wikipedia for general animal knowledge. The full system is deployed as a Cloud Run service with the ADK web UI.
 

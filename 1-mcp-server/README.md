@@ -1,6 +1,6 @@
-# Part 1 — Deploying a Secure MCP Server on Cloud Run
+# Part 1: Deploying a Secure MCP Server on Cloud Run
 
-In this part 1, I built and deployed a **Model Context Protocol (MCP) server** using FastMCP. It exposes zoo animal data as tools that any MCP-compatible LLM client can use. It was then secured with IAM authentication and tested live using **Gemini CLI**.
+In this part, I built and deployed a **Model Context Protocol (MCP) server** using FastMCP. It exposes zoo animal data as tools that any MCP-compatible LLM client can use. It was then secured with IAM authentication and tested live using **Gemini CLI**.
 
 ---
 

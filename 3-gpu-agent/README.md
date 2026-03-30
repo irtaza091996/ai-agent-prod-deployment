@@ -1,4 +1,4 @@
-# Part 3 — Deploying an ADK Agent with GPU-Accelerated Gemma 
+# Part 3: Deploying an ADK Agent with GPU-Accelerated Gemma 
 
 In this part, I deployed a **production-ready AI agent** backed by a GPU-accelerated **Gemma 3 270M** model running via Ollama on Cloud Run. I then ran an **elasticity test** with Locust to observe how both services handle load independently.
 

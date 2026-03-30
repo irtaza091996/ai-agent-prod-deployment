@@ -1,0 +1,13 @@
+[project]
+name = "production-adk-agent"
+version = "0.1.0"
+description = "GPU-accelerated Gemma agent deployed on Cloud Run"
+requires-python = ">=3.13"
+dependencies = [
+    "google-adk==1.14.0",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn",
+    "litellm",
+    "locust",
+]

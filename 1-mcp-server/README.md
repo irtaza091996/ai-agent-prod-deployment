@@ -2,6 +2,8 @@
 
 In this part, I built and deployed a **Model Context Protocol (MCP) server** using FastMCP. It exposes zoo animal data as tools that any MCP-compatible LLM client can use. It was then secured with IAM authentication and tested live using **Gemini CLI**.
 
+<img width="1111" height="535" alt="image" src="https://github.com/user-attachments/assets/950b8468-88b5-4e04-b925-f8f5d804bda6" />
+
 ---
 
 ## What I built

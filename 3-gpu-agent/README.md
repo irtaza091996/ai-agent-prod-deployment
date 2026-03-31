@@ -10,18 +10,8 @@ This part is **standalone** — it does not require parts 1 or 2.
 
 Two Cloud Run services that work together:
 
-```
-┌──────────────────────────────┐      inference      ┌──────────────────────────────┐
-│  production-adk-agent        │ ──────────────────► │  ollama-gemma3-270m-gpu      │
-│  Cloud Run (CPU only)        │                     │  Cloud Run (NVIDIA L4 GPU)   │
-│  ADK + FastAPI               │                     │  Ollama + Gemma 3 270M       │
-│  1 instance, 50 concurrency  │                     │  1–3 instances, 7 concurrency│
-└──────────────────────────────┘                     └──────────────────────────────┘
-        ▲
-        │
-   Locust load test
-   (elasticity_test.py)
-```
+<img width="898" height="504" alt="image" src="https://github.com/user-attachments/assets/4756abf3-f1ed-43ff-bc25-1b2945bebd16" />
+
 
 The agent is a conversational zoo guide named **Gem**, powered by Gemma. Unlike Parts 1 and 2, this agent answers from general knowledge — it has no MCP tools or Wikipedia access. The emphasis is on the deployment architecture and production patterns.
 

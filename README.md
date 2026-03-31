@@ -14,6 +14,8 @@ Each part is self-contained with its own README, but they build on each other.
 | **2** | [`2-adk-agent/`](./2-adk-agent/) | A multi-agent zoo tour guide that uses the MCP server + Wikipedia | ADK, SequentialAgent, LangChain, Cloud Run |
 | **3** | [`3-gpu-agent/`](./3-gpu-agent/) | A GPU-accelerated Gemma agent with elasticity testing | Ollama, Gemma 3 270M, NVIDIA L4, Cloud Run |
 
+<img width="2048" height="1117" alt="image" src="https://github.com/user-attachments/assets/5e751753-873f-4110-94cb-036496a0831b" />
+
 ---
 
 ## Architecture overview

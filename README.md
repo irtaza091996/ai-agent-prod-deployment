@@ -1,12 +1,12 @@
 # AI Agent from Production to Deployment
 
-A 3-part project built with Google Cloud, showing how to go from a simple MCP server all the way to a GPU-accelerated AI agent — all deployed on **Google Cloud Run**.
+A 3-part project built with Google Cloud, showing how to go from a simple MCP server all the way to a GPU-accelerated AI agent, which is all deployed on **Google Cloud Run**.
 
 Each part is self-contained with its own README, but they build on each other. 
 
 ---
 
-## What is built
+## What is Built
 
 | Part | Folder | What is built | Key tech |
 |-----|--------|----------------|----------|
@@ -28,8 +28,9 @@ Each part is self-contained with its own README, but they build on each other.
 │  │  (FastMCP)       │                │  (ADK SequentialAgent│   │
 │  └──────────────────┘                └──────────────────────┘   │
 │          ▲                                      ▲               │
-│          │ MCP client                           │ Wikipedia API │
-│    Gemini CLI                            LangChain Tool         │
+│          │                                      │               │
+│      MCP client                           Wikipedia API         │
+│      Gemini CLI                          LangChain Tool         │
 │                                                                 │
 │  ┌─────────────────────────────────────────┐                    │
 │  │  Part 3 (standalone)                    │                    │
@@ -56,7 +57,7 @@ Before starting, make sure you have:
 
 ---
 
-## Getting started
+## Getting Started
 
 Clone the repo and navigate into it:
 
@@ -74,7 +75,7 @@ cat README.md
 
 ---
 
-## Cost estimate
+## Cost Estimate
 
 | Part | Approximate cost |
 |-----|-----------------|
@@ -86,7 +87,7 @@ Each part README includes a **clean up** section to delete resources and avoid o
 
 ---
 
-## Project at a glance
+## Project at a Glance
 
 ### Part 1 — Deploying a secure MCP server on Cloud Run
 
@@ -98,7 +99,7 @@ Building a [Model Context Protocol](https://modelcontextprotocol.io/) server usi
 
 ---
 
-### Part 2 — Building and deploying an ADK agent that uses an MCP server
+### Part 2 — Building and Deploying an ADK Agent that uses an MCP Server
 
 Building a multi-agent zoo tour guide using Google's **Agent Development Kit (ADK)**. The agent uses the MCP server from Part 1 as its toolset, augmented with the Wikipedia API for general knowledge. Deploying the agent to Cloud Run.
 
@@ -118,7 +119,7 @@ Deploying a **GPU-accelerated Gemma 3** model via Ollama on Cloud Run, then wiri
 
 ---
 
-## Project structure
+## Project Structure
 
 ```
 ai-agent-prod-deployment/

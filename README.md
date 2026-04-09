@@ -137,6 +137,4 @@ ai-agent-prod-deployment/
 
 ---
 
-## Acknowledgements
 
-Built as part of a Google Cloud codelabs series at Google Berlin
